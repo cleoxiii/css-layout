@@ -7,8 +7,40 @@ html {
     line-height: 1.5em;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+img {
+    margin-left: 15px;
+    margin-right: 155px;
+    border-radius: 50%;
+}
+
+h1 {
+    color: white;
+}
+
+nav {
+    margin-right: 14px;
+}
+
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+ul li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
 }
